@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+git add .
+git commit -m "This is the commited changes on my javascript repo"
+git push
