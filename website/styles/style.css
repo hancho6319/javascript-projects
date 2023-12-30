@@ -3,14 +3,14 @@
     margin: 0;
 }
 
-.logo {
+.logo2020 {
     width: 120px;
     cursor: pointer;
 }
 
 
 header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: #050505;
     color: #ffffff;
@@ -51,16 +51,28 @@ header ul li:hover::after {
 }
 
 
-.lskd7443 {
+.form7443 {
     height: 500px;
     width: 100%;
-    background-image: url("../images/red-blue-form-background.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/istockphoto-1483523559-612x612.jpg");
     background-size: cover;
 }
 
+.form7443 form {
+    position: absolute;
+    width: 700px;
+    top: 120px;
+    right: 10px;
+    border: solid 2px white;
+    padding: 20px 20px;
+}
+
+.body8302 {
+    height: 800px;
+}
 .foot8364 {
     position: relative;
-    height: 400px;
+    height: 200px;
     width: 100%;
     bottom: 0px;
     background-color: lightgray;
