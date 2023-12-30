@@ -1,3 +1,67 @@
-body {
-    background-color: red !important; /* Apply a specific color to check if CSS is working */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #050505;
+    color: #ffffff;
+    margin: auto;
+    padding: 30px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul li::after
+{
+    content: '';
+    width: 0;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+
+header ul li:hover::after {
+    width: 100%;
+}
+
+
+.lskd7443 {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/space-6951379_640.jpg");
+    background-size: cover;
+}
+
+.foot8364 {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    bottom: 0px;
+    background-color: lightgray;
 }
